@@ -1,0 +1,89 @@
+*{margin:  0; padding: 0; box-sizing: border-box;}
+/* sıfırlama dedigimiz işlem bu yukarıda yaptıgımdır . */
+body {
+    font-family: 'montserrat' ,sans-serif;
+    color: #fff;
+    background-image:url(hoho.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+    .app{
+        display: flex;
+        flex-direction: column;
+
+    /* flex direction column alt alta sıralı column yapısında görünümü saglar  */
+        align-items: center;
+        text-align: center;
+        background: rgba(0, 0, 0,.7);
+        /* üstteki koyu background 'un üstüne koyu background caktık ' */
+        height: 100vh; 
+        /* bu height burda transparent olmasını saglar ve transparent in yüksekligini ayarlar aslında  */
+    }
+.header{ padding:  50px 20px 30px 20px;}
+.header h1{
+    font-size: 35px;
+    color: #b47208;
+    text-shadow: 1px 3px rgba(0, 0, 0,.9);
+}
+.header input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f2f2f2;
+    border-bottom: 2px solid  #b47208;
+    text-align: center;
+    font-size: 20px;
+}
+.city 
+{
+    font-size: 35px;
+    font-weight:500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,8);
+}
+.temp
+{ font-size: 40px;
+ font-weight: 700; 
+ /* 15 ° olan kısım ıçin yaptık yukarıdaki font weight 700 ü ve kalınlastırdık daha iyi göründü */
+ margin-bottom: 10px;
+ /* alttakiynan boslugu ayarlar margin bottom  */
+ text-shadow: 1px 5 px rgba(0,0,0,1);
+
+}
+ .desc {
+font-size: 25px;
+/* font-style: italic;  */
+text-shadow: 1px 3px rgba(0,0,0,8);
+margin-bottom: 10px;
+}
+.minmax
+{
+font-size:24px;
+text-shadow: 1px 3px rgba(0,0,0,8);
+
+
+}
+.footer {
+    background-color: transparent;
+    color: white;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
+
